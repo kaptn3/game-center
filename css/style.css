@@ -353,4 +353,52 @@ button:focus,
 textarea:focus {
   outline: none; }
 
+.app {
+  background: url("../img/bg3.jpg") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto; }
+
+.header {
+  padding: 30px 20px 0 20px;
+  max-width: 658px;
+  margin: 0 auto; }
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff; }
+
+.footer {
+  max-width: 667px;
+  margin: 0 auto;
+  padding: 30px 20px; }
+
+.gagarin {
+  display: flex;
+  height: 50%;
+  align-items: flex-end; }
+
+.gagarin__button {
+  text-transform: uppercase;
+  background: #1fad64;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  padding: 20px;
+  color: #fff; }
+
+.main__text {
+  display: flex;
+  height: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
 /*# sourceMappingURL=style.css.map */
