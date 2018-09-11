@@ -1,7 +1,6 @@
 .app {
   background: url('../img/bg3.jpg') center no-repeat;
   background-size: cover;
-  height: 100vh;
   width: 100%;
   text-align: center;
   display: grid;
@@ -10,5 +9,5 @@
                       "main"
                       "footer";
   grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto 340px auto;
 }

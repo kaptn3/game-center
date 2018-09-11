@@ -1,14 +1,11 @@
-.gagarin {
-  display: flex;
-  height: 50%;
-  align-items: flex-end;
-}
-
 .gagarin__button {
   text-transform: uppercase;
   background: #1fad64;
   border: 3px solid #fff;
-  border-radius: 30px;
-  padding: 20px;
+  border-radius: 20px;
+  padding: 10px;
   color: #fff;
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: 1px;
 }

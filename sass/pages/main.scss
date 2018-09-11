@@ -1,7 +1,14 @@
 .main__text {
   display: flex;
-  height: 50%;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+}
+
+.best-phrase {
+  margin-bottom: 20px;
+  font-size: .875rem;
+}
+
+.call-to-action {
+  font-size: 2rem;
+  margin-bottom: 10px;
 }
