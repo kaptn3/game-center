@@ -360,6 +360,7 @@ textarea:focus {
 .app {
   background: url("../img/bg3.jpg") center no-repeat;
   background-size: cover;
+  min-height: 100vh;
   width: 100%;
   text-align: center;
   display: grid;
@@ -384,7 +385,9 @@ textarea:focus {
 .footer {
   padding: 30px 20px;
   max-width: 590px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end; }
 
 .gagarin__button {
   text-transform: uppercase;
